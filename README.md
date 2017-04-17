@@ -6,14 +6,14 @@ A iOS like slide back Activity framework, slide to exit Activity. Now the demo u
 If you have any idea to improve this project, any commits welcomed:)
 
 download demo in Google Play [SlideActivity](https://play.google.com/store/apps/details?id=com.chenjishi.slidedemo&hl=zh-CN)
-##ScreenShot
+## ScreenShot
 <p align="center">
   <img src="demo.gif" alt="slideback" height="400" width="240"/>
 </p>
 
-##Usage
+## Usage
 
-###1.Extend SlidingActivity
+### 1.Extend SlidingActivity
 ```
 public class DetailActivity extends SlidingActivity {
 
@@ -26,7 +26,7 @@ public class DetailActivity extends SlidingActivity {
 }
 ```
 
-###2.Start your Intent
+### 2.Start your Intent
 ```
 public void onButtonClicked(View v) {
         Intent intent = new Intent(this, ImageActivity.class);
